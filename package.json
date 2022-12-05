@@ -4,8 +4,9 @@
   "description": "Starter template for building CRUD application in Node.js",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "start:prod": "SET NODE_ENV=production&&nodemon server.js",
+    "dev": "nodemon server.js",
+    "dev:prod": "SET NODE_ENV=production&&nodemon server.js",
+    "start": "node server.js",
     "debug": "ndb server.js"
   },
   "author": "Sophearith Saing",
